@@ -10,6 +10,7 @@
 *.pbxuser
 xcuserdata
 *.xccheckout
+*/project.xcworkspace/xcshareddata/
 
 # Build products
 build/

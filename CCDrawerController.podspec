@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
-  s.name = 'DrawerController'
-  s.version = '4.1.6'
+  s.name = 'CCDrawerController'
+  s.version = '4.1.7'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
-  s.homepage = 'https://github.com/mistsys/DrawerController'
+  s.homepage = 'https://github.com/Chris-Corea/DrawerController'
   s.authors = { 'Sascha Schwabbauer' => 'sascha@evolved.io',
   				'Malte Baumann' => 'malte@codingdivision.com', 
-          'Cuong Ta' => 'cuong@mistsys.com'}
+          'Cuong Ta' => 'cuong@mistsys.com',
+          'Chris Corea' => ''}
   s.summary = 'A lightweight, easy-to-use side drawer navigation controller (Swift port of MMDrawerController).'
-  s.social_media_url = 'http://twitter.com/mistsys'
-  s.source = { :git => 'https://github.com/mistsys/DrawerController.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/Chris-Corea/DrawerController.git', :tag => s.version.to_s }
 
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
