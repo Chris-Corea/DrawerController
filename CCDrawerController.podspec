@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'CCDrawerController'
-  s.version = '4.1.7'
+  s.version = '4.1.8'
   s.license = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage = 'https://github.com/Chris-Corea/DrawerController'
   s.authors = { 'Sascha Schwabbauer' => 'sascha@evolved.io',
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/Chris-Corea/DrawerController.git', :tag => s.version.to_s }
 
   s.requires_arc = true
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.subspec 'Core' do |ss|
     ss.source_files = 'DrawerController/DrawerController.swift', 'DrawerController/DrawerSegue.swift'
